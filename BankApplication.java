@@ -1,8 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package pkgclass;//فرح خليل حسن طبل
+
+package pkgclass;
 public class BankApplication {
     public static void main(String[] args) {
         SavingsAccount savingsAccount = new SavingsAccount(1000, 0.05);
