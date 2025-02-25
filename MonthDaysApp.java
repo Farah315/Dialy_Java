@@ -1,4 +1,3 @@
-//فرح خليل حسن طبل
 
 import java.util.Scanner;
 
