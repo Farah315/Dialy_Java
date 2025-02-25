@@ -1,6 +1,5 @@
 
 package farah;
-//فرح خليل حسن طبل
 public class Payroll {
     private String employeeName;
     private int idNumber;
