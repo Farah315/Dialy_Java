@@ -1,9 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package pkgclass;
-//فرح خليل حسن طبل
 public class PersonalInformation {
     private String name; 
     public void setName(String name) {
