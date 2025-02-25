@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package pkgclass;
-//فرح خليل حسن طبل
+
 public class Pet {
     private String name;
     private String animal;
@@ -44,7 +41,6 @@ public class Pet {
         return age;
     }
 
-    // Main method to test the class
     public static void main(String[] args) {
         Pet myPet = new Pet("Whiskers", "Cat", 3);
 
