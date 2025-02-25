@@ -2,16 +2,7 @@ package farah;
 
 import RetailItemTest.RetailItem1;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-/**
- *
- * @author Al-Qema
- */
 public class RetailItemT {
-//فرح خليل حسن طبل
 
     public static void main(String[] args) {
 
