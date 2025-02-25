@@ -1,4 +1,3 @@
-//فرح خليل حسن طبل
 
 public class MonthDays {
 
