@@ -1,4 +1,4 @@
-package pkgclass;//فرح خليل حسن طبل
+package pkgclass;
 
 public class Account {
 
