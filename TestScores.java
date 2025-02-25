@@ -1,7 +1,6 @@
 
 package farah;
 
-//فرح خليل حسن طبل
 public class TestScores {
     private double score1;
     private double score2;
