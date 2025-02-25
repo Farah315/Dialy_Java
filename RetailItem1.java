@@ -1,6 +1,4 @@
 package RetailItemTest;
-
-//فرح خليل حسن طبل
 public class RetailItem1 {
     private String description;
     private int unitsOnHand;
