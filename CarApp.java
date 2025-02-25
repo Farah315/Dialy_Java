@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package pkgclass;
 
-/**
- *
- * @author Al-Qema
- *///فرح خليل حسن طبل
+package pkgclass;
 
 public class CarApp {
   public static void main(String[] args) {
