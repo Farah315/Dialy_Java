@@ -1,16 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package geometryapp;
- 
 
-/**
- *
- * @author Al-Qema
- */
+package geometryapp;
+
 public class geometry {
-// 2320230929فرح خليل حسن طبل
+
     public static void getArea(int r){
         if(r<0){
             System.out.println("error index");
@@ -37,7 +29,7 @@ public class geometry {
           return;
       }
     System.out.println("The Arre is : " +b*h*0.5);
-         // 2320230929فرح خليل حسن طبل
+
 
     }
 }
