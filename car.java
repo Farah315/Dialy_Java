@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package carapplication;
 
-/**
- *
- * @author Al-Qema
- */
 public class car {
-// فرح خليل حسن طبل  2320230929
     private String model;
     private String year;
     private Double price;
@@ -51,7 +43,7 @@ public class car {
     public Double getPrice() {
         return price;
     }
-// فرح خليل حسن طبل  2320230929
+
 
     public void discount(Double d) {
         price -= price * (d / 100);
