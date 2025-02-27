@@ -1,21 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package geometryapp;
  
 import java.util.Scanner;
 
-/**
- *
- * @author Al-Qema
- */
 public class GeometryApp {
-// 2320230929فرح خليل حسن طبل
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner k = new Scanner(System.in);
         while (true) {
@@ -53,7 +42,7 @@ public class GeometryApp {
                     System.out.println("have a good day! , see u later");
                     return;
 
-                default: // 2320230929فرح خليل حسن طبل
+                default: 
 
                     System.out.println("wrong index , choose from 1..4");
             }
