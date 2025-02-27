@@ -1,16 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package distance;
- 
 
-/**
- *
- * @author Al-Qema
- */
+package distance;
+
 public class Distance_c {
-// 2320230929فرح خليل حسن طبل
+
     private double feet;
     private double inches;
 
@@ -41,7 +33,7 @@ public class Distance_c {
         feet = f;
         inches = i;
     }
-// 2320230929فرح خليل حسن طبل
+
     public void display() {
         System.out.println("Distance: " + feet + " feet " + inches + " inches");
     }
