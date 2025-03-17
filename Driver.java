@@ -2,7 +2,7 @@ package javaapplication34;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Driver {
-// 2320230929فرح خليل حسن طبل
+
 
 
     public static void main(String[] args) {
@@ -99,4 +99,4 @@ public class Driver {
         }
     }
 }
-// 2320230929فرح خليل حسن طبل
+
