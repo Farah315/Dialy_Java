@@ -1,5 +1,4 @@
 package javaapplication34;
-// 2320230929فرح خليل حسن طبل
 
 public class Account {
 
@@ -62,5 +61,5 @@ public class Account {
         yearlyInterestRate = newRate;
     }
 }
-// 2320230929فرح خليل حسن طبل
+
 
