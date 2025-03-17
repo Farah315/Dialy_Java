@@ -1,59 +1,66 @@
-package pkgclass;
+package javaapplication34;
+// 2320230929فرح خليل حسن طبل
 
 public class Account {
 
+    private String name;
     private double balance;
-    private double interestRate;
-    public Account(double balance, double interestRate) {
-        this.balance = balance;
-        this.interestRate = interestRate;
-    }
-    public void deposit(double amount) {
-        if (amount > 0) {
-            balance += amount;
-            System.out.println("Deposited: $" + amount);
+    private static double yearlyInterestRate;
+
+    public Account(String n, double b) {
+        name = n;
+        yearlyInterestRate = 5.0;
+        if (b > 0) {
+            balance = b;
         } else {
-            System.out.println("Invalid deposit amount.");
-        }
-    }
-    public void withdraw(double amount) {
-        if (amount > 0 && amount <= balance) {
-            balance -= amount;
-            System.out.println("Withdrawn: $" + amount);
-        } else {
-            System.out.println("Insufficient funds or invalid withdrawal amount.");
+            System.out.println("The balance cannot be negative");
+            balance = 5000.0;
         }
     }
 
-    public double calculateInterest() {
-        return balance * interestRate;
+    public Account() {
+        this("MyAccount", 5000.0);
+    }
+
+    public void deposit(double depositAmount) {
+        balance += depositAmount;
+    }
+
+    public void withdraw(double withdrawAmount) {
+        if (withdrawAmount <= balance) {
+            balance -= withdrawAmount;
+        } else {
+            System.out.println("Insufficient balance");
+        }
     }
 
     public double getBalance() {
         return balance;
     }
-    public void displayAccountDetails() {
-        System.out.println("Account Balance: $" + balance);
-        System.out.println("Interest Rate: " + (interestRate * 100) + "%");
+
+    public void setBalance(double b) {
+        if (b >= 0) {
+            balance = b;
+        } else {
+            System.out.println("The balance cannot be negative");
+        }
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void calculateMonthlyInterest() {
+        balance += (balance * yearlyInterestRate / 100) / 12;
+    }
+
+    public static void modifyYearlyInterestRate(double newRate) {
+        yearlyInterestRate = newRate;
     }
 }
-class SavingsAccount extends Account {
+// 2320230929فرح خليل حسن طبل
 
-    public SavingsAccount(double balance, double interestRate) {
-        super(balance, interestRate);
-    }
-}
-
-class CheckingAccount extends Account {
-
-    public CheckingAccount(double balance, double interestRate) {
-        super(balance, interestRate);
-    }
-}
-
-class MoneyMarketAccount extends Account {
-
-    public MoneyMarketAccount(double balance, double interestRate) {
-        super(balance, interestRate);
-    }
-}
